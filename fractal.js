@@ -1,3 +1,5 @@
+// Fractal.js by Moisés Cachay
+
 // setPixel, some parts of drawFractal and Canvas enlightment
 // extracted from http://beej.us/blog/data/html5s-canvas-2-pixel/
 function setPixel(imageData, x, y, r, g, b) {
@@ -33,7 +35,7 @@ function drawFractal(canvasid, maxIterations) {
 
     // We iterate all over the complex plane
     for(x = -width/2; x <= width/2; x++) {
-        for(y =- height/2; y <= height/2; y++) {
+        for(y = -height/2; y <= height/2; y++) {
 
             // The fractal generation algorithm uses the Mandelbrot set definition
             // where a complex number will be part of it if it makes the function:
